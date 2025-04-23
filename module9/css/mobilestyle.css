@@ -1,0 +1,44 @@
+/*Begin mobile.*/
+@media screen and (max-width: 639px) {
+
+    nav ul li {
+        border-radius: 1em;
+    }
+    
+    .tablet {
+        display: none;
+    }
+    
+    .desktop {
+        display: none;
+    }
+    
+    
+        /* Hide the left column container on mobile */
+        .column-left-container {
+              display: none; 
+        }
+    
+        /* Adjust width of center column to take full width */
+        main div .center {
+            width: 100%;  /* Make center column full width */
+           
+        
+        }
+        
+        main {
+            box-shadow: 0.5em 0.5em 0.5em black;
+            padding-bottom: 75%;
+            
+        }
+    
+        nav ul li {
+            display: block; /* Stack navigation buttons vertically */
+            width: 100%; /* Make them full width */
+            margin: 0.5em 0; /* Add vertical spacing */
+            text-align: center; /* Center the text */
+            box-sizing: border-box;
+          }
+    
+    }
+    /*End mobile.*/
